@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: orange;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 350px;
+}
+footer{
+    background-color: grey;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    align-items: center;
+    justify-content: center;
+}
+#content{
+    background-color: white;
+    height: 391px;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    gap: 50px   ;
+    justify-content: center;
+    align-items: center;
+
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto1{
+    height: 100px;
+    width: 300px;
+    background-color: rgba(255, 68, 0, 0.336);
+
+}
+.cuadrado1{
+    height: 120px;
+    width: 120px;
+    background-color: rgba(255, 68, 0, 0.562);
+}
+.box1 , .box2 , .box3{
+    height: 120px;
+    width: 120px;
+    margin: 0 50px 0 50px;
+}
+.box1{
+    background-color: blue;
+}
+.box2{
+    background-color: red;
+}
+
+.box3{
+    background-color: orange;
+}
+.texto2{
+    width: 150px;
+    height: 60px;
+    background-color: aqua;
+}
+.cosanaranja{
+    text-align: center;
+    color: orangered;
+}
+.lineasblancas{
+    text-align: center;
+    color: white;
+}
